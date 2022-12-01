@@ -1,0 +1,120 @@
+.App {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+}
+.table {
+  width: 700px;
+  margin-top: 21px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.form { 
+  width: 25%;
+  margin: 25px;
+  margin-right: 100px;
+}
+
+.btn-secondary,
+.btn-danger {
+  margin-left: 10px;
+  margin-bottom: px;
+}
+
+.register {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+@media (max-width: 900px) {
+  .table {
+    width: 600px;
+  }
+  .form {
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 800px) {
+  .App {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 800px) {
+  .App {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 800px) {
+  .form {
+      width: 40%;
+
+  }
+}
+
+
+@media (max-width: 600px) {
+  .form {
+    width: 70%;
+    margin: 0;
+    
+  }
+  .table {
+    margin: 0;
+    margin-top: 10px;
+  }
+  thead,
+  tbody {
+    font-size: 0.9em;
+  }
+  
+  .btn-edit,
+  .btn-delete {
+    margin: 0;
+    padding: 7px;
+  }
+  .btn-delete {
+    margin-left: 7px;
+  }
+  i {
+    font-size: 9px;
+  }
+  
+}
+
+@media (max-width: 470px) {
+  .form {
+      width: 70%;
+      margin: 0;
+      
+  }
+  .table {
+    margin: 0;
+    width: 0px;
+    margin-top: 10px;
+  }
+  thead,
+  tbody {
+    font-size: 0.7em;
+  }
+
+  .btn-edit,
+  .btn-delete {
+    margin: 0;
+    padding: 3px;
+  }
+  .btn-delete {
+    margin-left: 2px;
+  }
+  i {
+    font-size: 9px;
+  }
+  
+}
+
+
