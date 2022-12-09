@@ -113,7 +113,7 @@ function App() {
           type="number"
           name="dni"
           value={dni}
-          placeholder="Dni"
+          placeholder="DNI"
           className="form-control mb-2"
           onChange={(e) => {
             handleDni(e.target.value);
@@ -131,7 +131,7 @@ function App() {
           type="text"
           name="last_names"
           value={lastName}
-          placeholder="Last_names"
+          placeholder="Last names"
           className="form-control mb-2"
           onChange={(e) => setLastName(e.target.value)}
         />
