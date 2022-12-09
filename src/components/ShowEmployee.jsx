@@ -41,8 +41,8 @@ const ShowEmployees = ({ editEmployee, reload, setReload, handleUpdate }) => {
       <table className="table table-striped w-auto">
         <thead className="text-white bg-dark">
           <tr>
-            <th scope="col">Cod</th>
-            <th scope="col">Dni</th>
+            <th scope="col">COD</th>
+            <th scope="col">DNI</th>
             <th scope="col">Name</th>
             <th scope="col">Last Name</th>
             <th scope="col">Workstation</th>
