@@ -183,8 +183,8 @@ function App() {
         />
         <input
           type="reset"
-          name="clean"
-          value="Clean"
+          name="clear"
+          value="Clear"
           onClick={() => {
             setDni(0);
             setName("");
